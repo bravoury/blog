@@ -1,5 +1,5 @@
 {
-    "name": "litecms/blog",
+    "name": "bravoury/blog",
     "description": "Blog package for litecms.",
     "keywords": ["lavalite", "Blog"],
     "license": "MIT",
@@ -18,16 +18,16 @@
             "database/seeds"
         ],
         "psr-4": {
-            "Litecms\\Blog\\": "src"
+            "Bravoury\\Blog\\": "src"
         }
     },
     "extra": {
         "laravel": {
             "providers": [
-                "Litecms\\Blog\\Providers\\BlogServiceProvider"
+                "Bravoury\\Blog\\Providers\\BlogServiceProvider"
             ],
             "aliases": {
-                "Blog"       : "Litecms\\Blog\\Facades\\Blog"
+                "BlogBravoury"       : "Bravoury\\Blog\\Facades\\Blog"
             }
         }
     },
